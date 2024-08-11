@@ -81,4 +81,4 @@ jobs:
           -a "$APK_DIR_PATH/${APK_BASENAME_PREFIX}_sha256sums" \
           "$RELEASE_VERSION_NAME"; then
             exit_on_error "Attach APKs to release failed for '$APK_VERSION_TAG' release."
-          fi
+          fi 
